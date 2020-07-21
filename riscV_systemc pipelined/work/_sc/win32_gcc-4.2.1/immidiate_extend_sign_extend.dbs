@@ -1,0 +1,12 @@
+Z                              79
+R;0;0;19;24;1
+R;0;2;20;14;1
+R;0;3;21;25;1
+E;
+Z4
+S2;enable
+S0;number_to_extend
+S3;sign_extended
+S1;sign_extend<SIZE, Position_of_sign>
+Z1
+F0;C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/immidiate_extend_sign_extend.h

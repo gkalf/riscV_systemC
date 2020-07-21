@@ -1,0 +1,126 @@
+# Current time Tue Jul 07 00:30:32 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# 0    0x00000064: '<unknown (@0x64)>'
+# 1    0x007823a9: '<unknown (@0x7823a9)>'
+# 2    0x00854612: '<unknown (@0x854612)>'
+# 3    0x00855b23: '<unknown (@0x855b23)>'
+# 4    0x00855cfc: '<unknown (@0x855cfc)>'
+# 5    0x1000cb1f: 'TclInvokeStringCommand + 0x8f' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 6    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 7    0x1000e500: 'Tcl_EvalEx + 0x20' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 8    0x00fa9b24: '<unknown (@0xfa9b24)>'
+# 9    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 10   0x100aab09: 'TclpHasSockets + 0x379' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Tue Jul 07 00:55:54 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# --> START OF USERCODE
+# 0    0x605ace97: 'sc_core::scmti_get_variable_value(void*, void**) + 0x1f' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# <-- END OF USERCODE
+# 1    0x007839b4: '<unknown (@0x7839b4)>'
+# 2    0x008545c5: '<unknown (@0x8545c5)>'
+# 3    0x00855b23: '<unknown (@0x855b23)>'
+# 4    0x00855cfc: '<unknown (@0x855cfc)>'
+# 5    0x1000cb1f: 'TclInvokeStringCommand + 0x8f' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 6    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 7    0x1000e500: 'Tcl_EvalEx + 0x20' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 8    0x00fa9b24: '<unknown (@0xfa9b24)>'
+# 9    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 10   0x100aab09: 'TclpHasSockets + 0x379' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Tue Jul 07 01:06:52 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# 0    0x00000064: '<unknown (@0x64)>'
+# 1    0x007823a9: '<unknown (@0x7823a9)>'
+# 2    0x00854612: '<unknown (@0x854612)>'
+# 3    0x00855b23: '<unknown (@0x855b23)>'
+# 4    0x00855cfc: '<unknown (@0x855cfc)>'
+# 5    0x1000cb1f: 'TclInvokeStringCommand + 0x8f' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 6    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 7    0x1000e500: 'Tcl_EvalEx + 0x20' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 8    0x00fa9b24: '<unknown (@0xfa9b24)>'
+# 9    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 10   0x100aab09: 'TclpHasSockets + 0x379' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Thu Jul 09 10:32:45 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# --> START OF USERCODE
+# 0    0x605bbc47: 'sc_core::scmti_get_variable_value(void*, void**) + 0x1f' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# <-- END OF USERCODE
+# 1    0x007839b4: '<unknown (@0x7839b4)>'
+# 2    0x008545c5: '<unknown (@0x8545c5)>'
+# 3    0x00855b23: '<unknown (@0x855b23)>'
+# 4    0x00855cfc: '<unknown (@0x855cfc)>'
+# 5    0x1000cb1f: 'TclInvokeStringCommand + 0x8f' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 6    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 7    0x1000e500: 'Tcl_EvalEx + 0x20' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 8    0x00fa9b24: '<unknown (@0xfa9b24)>'
+# 9    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 10   0x100aab09: 'TclpHasSockets + 0x379' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# End of Stack Trace
+
+
+# Current time Sun Jul 19 00:12:46 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# --> START OF USERCODE
+# 0    0x606243f2: 'sc_dt::operator==(sc_dt::sc_uint_base const&, sc_dt::sc_uint_base const&) + 0x12' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 1    0x6063aade: 'sc_core::sc_signal<sc_dt::sc_uint<32>, (sc_core::sc_writer_policy)0>::write(sc_dt::sc_uint<32> const&) + 0x16' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 2    0x6063b579: 'sc_core::sc_signal<sc_dt::sc_uint<32>, (sc_core::sc_writer_policy)0>::operator=(sc_dt::sc_uint<32> const&) + 0x1d' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 3    0x6061a16f: 'exec<32u>::read_CSR() + 0x43' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 4    0x6062cb20: 'sc_core::sc_process_b::semantics() + 0x114' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 5    0x605bea48: 'sc_core::scmti_execute_method_process(void*) + 0x40' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# <-- END OF USERCODE
+# 6    0x00427730: '<unknown (@0x427730)>'
+# End of Stack Trace
+
+
+# Current time Sun Jul 19 00:18:24 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# --> START OF USERCODE
+# 0    0x606243f2: 'sc_dt::operator==(sc_dt::sc_uint_base const&, sc_dt::sc_uint_base const&) + 0x12' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 1    0x6063aade: 'sc_core::sc_signal<sc_dt::sc_uint<32>, (sc_core::sc_writer_policy)0>::write(sc_dt::sc_uint<32> const&) + 0x16' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 2    0x6063b579: 'sc_core::sc_signal<sc_dt::sc_uint<32>, (sc_core::sc_writer_policy)0>::operator=(sc_dt::sc_uint<32> const&) + 0x1d' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 3    0x6061a16f: 'exec<32u>::read_CSR() + 0x43' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 4    0x6062cb20: 'sc_core::sc_process_b::semantics() + 0x114' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# 5    0x605bea48: 'sc_core::scmti_execute_method_process(void*) + 0x40' in 'c:\users\sggkalfo\desktop\riscv_systemc pipelined\work\_sc\win32_gcc-4.2.1\systemc.so'
+# <-- END OF USERCODE
+# 6    0x00427730: '<unknown (@0x427730)>'
+# End of Stack Trace
+
+

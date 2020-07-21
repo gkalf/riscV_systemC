@@ -1,0 +1,9 @@
+addi x5,x5,1
+addi x6,x6,2
+addi x7,x7,3
+add  x8,x8,x8
+add  x8,x8,x8
+add  x8,x8,x8
+add  x8,x8,x8
+add  x8,x8,x8
+add  x9,x7,x6

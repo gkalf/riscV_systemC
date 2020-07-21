@@ -1,0 +1,14 @@
+Z                              93
+R;0;0;19;24;1
+R;0;2;20;24;1
+R;0;3;21;14;1
+R;0;4;22;25;1
+E;
+Z5
+S3;choose_wisely
+S0;a
+S2;b
+S4;c
+S1;MUX_2_1<SIZE>
+Z1
+F0;C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/MUX_2-1_MUX_2_1.h

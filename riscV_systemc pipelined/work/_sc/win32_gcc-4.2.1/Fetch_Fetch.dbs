@@ -1,0 +1,20 @@
+Z                             135
+R;0;0;11;17;1
+R;0;2;12;19;1
+R;0;3;14;33;1
+R;0;4;15;19;1
+R;0;5;16;19;1
+R;0;6;18;32;1
+R;0;7;19;34;1
+E;
+Z8
+S5;stall_j
+S7;PC
+S2;reset
+S0;clk
+S1;Fetch<DATA_WIDTH, ADDR_WIDTH>
+S6;new_PC
+S4;stall
+S3;next_PC
+Z1
+F0;C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Fetch_Fetch.h

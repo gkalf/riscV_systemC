@@ -1,0 +1,18 @@
+Z                             121
+R;0;0;19;24;1
+R;0;2;20;24;1
+R;0;3;21;24;1
+R;0;4;22;24;1
+R;0;5;23;21;1
+R;0;6;24;25;1
+E;
+Z7
+S5;choose_wisely
+S0;a
+S2;b
+S3;c
+S4;d
+S6;out
+S1;MUX_4_1<SIZE>
+Z1
+F0;C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Mux_4-1_MUX_4_1.h

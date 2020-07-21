@@ -1,0 +1,42 @@
+{C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/immidiate_extend_sign_extend.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/immidiate_extend_sign_extend.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_main.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_main.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+Exported modules:
+	sc_main
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/ALU.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/ALU.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DUAL_PORT_MEMORY.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DUAL_PORT_MEMORY.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DUAL_PORT_MEMORY.cpp:1:30: warning: no newline at end of file
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DATA_mem_DATA_MEM.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DATA_mem_DATA_MEM.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Fetch_Fetch.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Fetch_Fetch.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/MUX_2-1_MUX_2_1.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/MUX_2-1_MUX_2_1.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Mux_4-1_MUX_4_1.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Mux_4-1_MUX_4_1.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_Theseus_CPU.cpp} {1 {sccom -work work -stats=none {C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_Theseus_CPU.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}}

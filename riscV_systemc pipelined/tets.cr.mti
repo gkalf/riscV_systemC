@@ -1,0 +1,12 @@
+{C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/design.cpp} {1 {sccom -work work -stats=none {C:\Users\sggkalfo\Desktop\riscV_systemc pipelined\design.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+} {} {}} main.cpp {1 {sccom -work work -stats=none {C:\Users\sggkalfo\Desktop\riscV_systemc pipelined\main.cpp}
+
+QuestaSim SE sccom 10.4c compiler 2015.07 Jul 20 2015
+
+Exported modules:
+	sc_main
+
+} {} {}}

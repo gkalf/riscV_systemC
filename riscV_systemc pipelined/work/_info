@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim_10.4c/examples
+T_opt
+!s110 1593793994
+VzFM^FOSb3n9G@JZPWQNH[1
+Z1 04 7 0 work sc_main 0
+=1-74d02b07e200-5eff5dc9-38a-371c
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OE;O;10.4c;61
+R0
+T_opt1
+!s110 1595336208
+VXi4bjW=D>YM13A7Z_iS=32
+R1
+=1-74d02b07e200-5f16e60f-37e-2830
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1594666521
+VGOHnNAOAZTj5o=O1:CK<[1
+R1
+=1-74d02b07e200-5f0cae18-292-4ef0
+R2
+n@_opt2
+R3
+R0
+T_opt3
+!s110 1595350430
+V;Y:HIeS22EJcmUHR5`8mf1
+R1
+=1-74d02b07e200-5f171d9e-80-3934
+R2
+n@_opt3
+R3
+ssc_main
+!s84 1
+R0
