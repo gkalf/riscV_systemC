@@ -125,6 +125,7 @@ void Decode<DATA_WIDTH>::control_unit()
 			rs1_en = 1;
 			rs2_en = 1;
 			imm_tmp = B_imm;
+			ALU_code = (sc_uint<1>(1), funct3.read());
 			break;
 		case 0x03 : //load immidiate
 			ALU_B_src = 1;
@@ -238,7 +239,7 @@ void Decode<DATA_WIDTH>::RF()
 jump_r |B_src | A_src |	rs1 | rs2 |	ALU_code | funct3 | rd | Branch | Wr_to_RF | MEM_write | WB_select | jump 
    1   |  2   |   1   |  5  |  5  |    5     |    3   |  5 |    1   |     1    |     1     |      1    |   1       																										
 
-		}	*/
+			*/
 		wait();
 	}
 }

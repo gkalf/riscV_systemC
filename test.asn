@@ -1,0 +1,36 @@
+lui     ra,0xd
+addi    ra,ra,-820 # cccc <_end+0xaac8>
+ 
+   lui     s3,0xfffff
+             addi    s3,s3,-564 # ffffedcc <_end+0xffffcbc8>
+                li      tp,2047
+
+li t0,0
+li t1,4
+li t2,8
+li t3,12
+li t4,16
+li t5,20
+li t6,24
+jal a0,label
+label4:
+addi a1,a2,4
+label3:
+addi a2,a2,-2
+addi a1,a1,-1
+label2:
+bltu a2,a1,label4
+bgeu a2,a2,end
+
+label:
+addi t0,t0,1
+addi t0,t0,1
+addi t0,t0,1
+addi t0,t0,1
+blt  t0,t2,label
+bge  t3,t0,label
+bne  t5,t0,label
+beq  t5,t0,label3
+
+end:
+j end

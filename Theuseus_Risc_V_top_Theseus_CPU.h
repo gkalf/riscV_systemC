@@ -108,11 +108,7 @@ void printa()
 		funct3_5  = control_registers_WB.read().range(12,10);
 		rd5		  = control_registers_WB.read().range(9,5);
 		Wr_to_RF_5= control_registers_WB.read()[3];
-		if (stall_j.read()){
-			instruction=0;
-		}else{
-			instruction = load_instruction;
-		} 
+		
 	}
 	
 	//Constructor Declaration...
@@ -134,7 +130,7 @@ void printa()
 
 		Decode_dut.clk(clk);
 		Decode_dut.reset(reset);
-		Decode_dut.instruction(instruction);
+		Decode_dut.instruction(load_instruction);
 		Decode_dut.PC(PC);
 		Decode_dut.PC_dec(new_PC);
 		Decode_dut.rd_en(Wr_to_RF_5);
@@ -196,6 +192,7 @@ void printa()
 		RAM_inst.data2(rs2_store_data_MEM);
 		RAM_inst.data2_out(data_from_memory);
 		RAM_inst.MEM_write(MEM_write_4);
+		RAM_inst.stall_j(stall_j);
 		
 		SC_THREAD(printa);
 		sensitive << clk.pos();

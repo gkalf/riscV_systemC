@@ -121,12 +121,12 @@ template<unsigned DATA_WIDTH>
 void exec<DATA_WIDTH>::ALU_source()
 {
 
-	ALU_A_src = control_registers.read()[28];
+	//ALU_A_src = control_registers.read()[28];
 	//ALU_B_src = control_registers.read().range(30,29);
 
-	if (ALU_A_src.read() == 0){
+	if (control_registers.read()[28] == 0){
 		inputA = inputA_reg.read();
-	}else if (ALU_A_src.read() == 1){
+	}else if (control_registers.read()[28] == 1){
 		inputA = PC_exec.read();
 	}
 
@@ -144,6 +144,7 @@ void exec<DATA_WIDTH>::ALU_source()
 template<unsigned SIZE>
 void exec<SIZE>::entry() 
 {	
+	bool branch;
 	unsigned tmp_result;
 	while(1){
 		
@@ -161,6 +162,7 @@ void exec<SIZE>::entry()
 			sc_uint<3> ALU_code_2_0 = control_registers.read().range(15,13); 
 			bool ALU_code_4 = control_registers.read()[17];
 			unsigned csr_val;
+			
 			
 			if( ALU_code_3 == 1 )
 			{
@@ -241,17 +243,17 @@ void exec<SIZE>::entry()
 
 			//calculate branch;
 			if (ALU_code_2_0 == 0){
-					take_branch = (sum == 0)?1:0;
+					branch = (A == B)?1:0;
 			}else if (ALU_code_2_0 == 1){
-					take_branch = (sum != 0)?1:0;
+					branch = (A != B)?1:0;
 			}else if (ALU_code_2_0 == 4){ //blt
-					take_branch = (A<B)?1:0;
+					branch = (A<B)?1:0;
 			}else if (ALU_code_2_0 == 5){//bge
-					take_branch = (A>=B)?1:0;
+					branch = (A>=B)?1:0;
 			}else if (ALU_code_2_0 == 6){
-					take_branch = (A_unint<B_uint)?1:0;
+					branch = (A_unint<B_uint)?1:0;
 			}else if (ALU_code_2_0 == 7){
-					take_branch = (A_unint>=B_uint)?1:0;
+					branch = (A_unint>=B_uint)?1:0;
 			}
 
 		}
@@ -261,12 +263,14 @@ void exec<SIZE>::entry()
 			rs2_store_data_MEM.write(0);
 			PC_MEM.write(0);
 			immidiate_to_MEM.write(0);
+			take_branch.write(0);
 		}else{
 			result.write(tmp_result);
 			control_registers_MEM.write(control_registers);
 			rs2_store_data_MEM.write(inputB_to_store);	
 			PC_MEM.write(PC_exec);
 			immidiate_to_MEM.write(immidiate);
+			take_branch.write(branch);
 		}
 		wait();
 	}

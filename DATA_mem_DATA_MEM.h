@@ -38,7 +38,7 @@ template<unsigned SIZE>
 void DATA_MEM<SIZE>::write_or_read_data() 
 {
 	while(1){
-		if (reset.read() == 1){
+		if ((reset.read() == 1) | stall_j.read()==1){
 			ALU_result_to_WB = 0;
 			control_registers_WB = 0;
 		}else{

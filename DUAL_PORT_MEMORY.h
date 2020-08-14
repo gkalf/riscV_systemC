@@ -15,6 +15,7 @@ SC_MODULE(RAM)
 	sc_in<sc_uint<DATA_WIDTH> > data2;
 	sc_out<sc_uint<DATA_WIDTH> > data2_out;
 	sc_in<bool> MEM_write;
+	sc_in<bool> stall_j;
 
 
 	sc_uint<DATA_WIDTH> 	Dual_RAM[1<<ADDR_WIDTH];
@@ -116,12 +117,12 @@ SC_MODULE(RAM)
 		// SC_METHOD(retrieve_data);
 		// sensitive << address2;
 		
-		FILE *fp = fopen("I-ADD-01.hex","r");
+		FILE *fp = fopen("code.hex","r");
 		unsigned size=0;
 		unsigned mem_word;
 
 		printf("** ALERT ** BIOS: initialize BIOS\n");
-		for (size = 0; size < (1<<ADDR_WIDTH); size++) {	// initialize bad data
+		for (size = 0; size < 10000; size++) {	// initialize bad data
 			Dual_RAM[size] = 0;
 		}
 
@@ -236,8 +237,11 @@ void RAM<DATA_WIDTH, ADDR_WIDTH>::always_process_43()
 {
 	previous_address = 0;
 	while(1){
-
-	data1 = Dual_RAM[address1.read().range(ADDR_WIDTH,2)];
+	if (stall_j.read()){
+		data1=0;
+	}else{
+		data1 = Dual_RAM[address1.read().range(ADDR_WIDTH,2)];
+	} 
 	if (previous_address.read() == address2.read()){
 		data2_out = previous_data;
 	}else{

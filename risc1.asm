@@ -1,4 +1,5 @@
-
+auipc   t0,0x2
+jr tp
 li   a1,0x30
 li   a2,0x4000
 li   a3,0x600000

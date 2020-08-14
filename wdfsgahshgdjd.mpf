@@ -825,7 +825,7 @@ Resolution = ns
 UserTimeUnit = default
 
 ; Default run length
-RunLength = 7 us
+RunLength = 1 us
 
 ; Maximum iterations that can be run without advancing simulation time
 IterationLimit = 10000000
@@ -2060,22 +2060,22 @@ Project_Version = 6
 Project_DefaultLib = work
 Project_SortMethod = unused
 Project_Files_Count = 9
-Project_File_0 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_main.cpp
-Project_File_P_0 = folder {Top Level} last_compile 1594246181 compile_order 8 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_1 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/immidiate_extend_sign_extend.cpp
-Project_File_P_1 = folder {Top Level} last_compile 1593020586 compile_order 7 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_2 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DUAL_PORT_MEMORY.cpp
-Project_File_P_2 = folder {Top Level} last_compile 1593619816 compile_order 6 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_3 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/ALU.cpp
-Project_File_P_3 = folder {Top Level} last_compile 1593719986 compile_order 5 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_4 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Mux_4-1_MUX_4_1.cpp
-Project_File_P_4 = folder {Top Level} last_compile 1593020586 compile_order 4 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_5 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/MUX_2-1_MUX_2_1.cpp
-Project_File_P_5 = folder {Top Level} last_compile 1593020586 compile_order 3 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_6 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Fetch_Fetch.cpp
-Project_File_P_6 = folder {Top Level} last_compile 1593020586 compile_order 2 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
-Project_File_7 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DATA_mem_DATA_MEM.cpp
-Project_File_P_7 = folder {Top Level} last_compile 1593020586 compile_order 1 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
+Project_File_0 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/immidiate_extend_sign_extend.cpp
+Project_File_P_0 = compile_order 7 last_compile 1595703524 folder {Top Level} dont_compile 0 group_id 0 file_type cxx ood 0 compile_to work
+Project_File_1 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_main.cpp
+Project_File_P_1 = folder {Top Level} last_compile 1594246181 compile_order 8 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
+Project_File_2 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/ALU.cpp
+Project_File_P_2 = folder {Top Level} last_compile 1593719986 compile_order 5 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
+Project_File_3 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DUAL_PORT_MEMORY.cpp
+Project_File_P_3 = folder {Top Level} last_compile 1593619816 compile_order 6 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
+Project_File_4 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/DATA_mem_DATA_MEM.cpp
+Project_File_P_4 = compile_order 1 last_compile 1595702957 folder {Top Level} dont_compile 0 group_id 0 file_type cxx ood 0 compile_to work
+Project_File_5 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Fetch_Fetch.cpp
+Project_File_P_5 = folder {Top Level} last_compile 1593020586 compile_order 2 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
+Project_File_6 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/MUX_2-1_MUX_2_1.cpp
+Project_File_P_6 = compile_order 3 last_compile 1595703501 folder {Top Level} dont_compile 0 group_id 0 file_type cxx ood 0 compile_to work
+Project_File_7 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Mux_4-1_MUX_4_1.cpp
+Project_File_P_7 = folder {Top Level} last_compile 1593020586 compile_order 4 file_type cxx group_id 0 dont_compile 0 ood 0 compile_to work
 Project_File_8 = C:/Users/sggkalfo/Desktop/riscV_systemc pipelined/Theuseus_Risc_V_top_Theseus_CPU.cpp
 Project_File_P_8 = compile_order 0 last_compile 1594163421 folder {Top Level} dont_compile 0 group_id 0 file_type cxx ood 0 compile_to work
 Project_Sim_Count = 0
