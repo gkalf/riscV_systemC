@@ -1,9 +1,0 @@
-lui a2,0xF0F0
-addi a2,a2,0xF0
-lui a3,0xFFFF
-addi a3,a3,0xFF
-add a4,a3,a2
-sub a5,a3,a2
-xor t0,a3,a2
-or t3,a3,a2
-and t4,a3,a2
